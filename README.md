@@ -10,10 +10,12 @@
 
 ### 文档编写流程
 
-将文档仓库克隆到本地
+首先加入Github组织, 而后fork本仓库, 在fork后的仓库中进行文档编写.
+
+将仓库克隆到本地
 
 ```bash
-git clone git@github.com:BJUT-Software-Course-Design/docs.git
+git clone [你的仓库地址]
 ```
 
 在本地编辑文档, 编写完成后, 提交到远程仓库
@@ -26,7 +28,7 @@ git push
 
 注意: 在`git add .`之前, 请确保
 
-1. 不要修改多余的文件, 以免提交到远程仓库.
+1. 不要修改多余的文件, 以免提交到远程仓库(亦可在`git add`时指定需要添加的文件名).
 2. (可选) 使用markdownlint插件检查文档格式是否符合规范.
 
 提交信息请尽量简洁明了, 以便他人查看.
@@ -37,7 +39,9 @@ git push
 git commit -m "添加了项目开发计划章节"
 ```
 
-在提交到远程仓库后, 可以通过[Gitbook](https://noahs-organization-14.gitbook.io/docs/2-xu-qiu-gui-ge-shuo-ming)查看文档效果(可能需要等待一段时间).
+在完成了一部分文档编写后, 可以提交pull request, 请求合并到主仓库. 具体操作方式请参考Github官方文档.
+
+在代码合并到远程仓库后, 可以通过[Gitbook](https://noahs-organization-14.gitbook.io/docs/)查看文档效果(可能需要等待一段时间).
 
 ### 章节划分
 
