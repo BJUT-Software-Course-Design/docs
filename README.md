@@ -2,6 +2,18 @@
 
 本文档为北京工业大学21级软件课设第8组的项目文档。
 
+## 项目地址
+
+Github团队地址: [https://github.com/BJUT-Software-Course-Design]
+
+文档仓库地址: [https://github.com/BJUT-Software-Course-Design/docs]
+
+前端仓库地址: [https://github.com/BJUT-Software-Course-Design/frontend]
+
+后端仓库地址: [https://github.com/BJUT-Software-Course-Design/backend]
+
+项目demo地址: [8.130.106.12]
+
 ## 文档编写方式
 
 ### 基础要求
